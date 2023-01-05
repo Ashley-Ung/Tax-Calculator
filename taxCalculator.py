@@ -75,5 +75,6 @@ elif filingStatus == "widowed":
 	print ("Your tax liability is: $" + str (tax))
 else:
 	print ("Invalid filing status")
+# Calculate tax refund amount 
 taxRefund = tax - taxPaid # tax in this case is the tax liability 
 print ("Your tax refund amount is: $" + str (taxRefund)) 
