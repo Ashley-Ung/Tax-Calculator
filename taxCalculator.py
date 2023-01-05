@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+
+"""
+taxCalculator.py
+Ashley Ung 
+
+This program functions as a tax calculator. It will prompt the user to input their taxable income, tax deductions, tax exemptions, and their filing status. The tax calculator will assist users in filling out their 1040 tax income form. This program will calculate the user's tax liability (the combined amount of taxes the user owes the IRS from income tax, capital gains tax, self-employment tax, and any penalities or interest), and the tax refund amount.
+"""
+
 # Tax rates and brackets for 2021 (single filer)
 singleTaxRates = [0.1, 0.12, 0.22, 0.24, 0.32, 0.35, 0.37]
 singleTaxBrackets = [0, 10275, 41775, 89075, 170050, 215950, 539900]
@@ -66,3 +75,5 @@ elif filingStatus == "widowed":
 	print ("Your tax liability is: $" + str (tax))
 else:
 	print ("Invalid filing status")
+taxRefund = tax - taxPaid # tax in this case is the tax liability 
+print ("Your tax refund amount is: $" + str (taxRefund)) 
