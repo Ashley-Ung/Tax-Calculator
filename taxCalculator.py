@@ -1,3 +1,23 @@
+# Tax rates and brackets for 2021 (single filer)
+singleTaxRates = [0.1, 0.12, 0.22, 0.24, 0.32, 0.35, 0.37]
+singleTaxBrackets = [0, 10275, 41775, 89075, 170050, 215950, 539900]
+
+# Tax rates and brackets for 2021 (married filing jointly)
+jointTaxRates = [0.1, 0.12, 0.22, 0.24, 0.32, 0.35, 0.37]
+jointTaxBrackets = [0, 20550, 83550, 178150, 340100, 431900, 647850]
+
+# Tax rates and brackets for 2021 (married filing separately)
+separateTaxRates = [0.1, 0.12, 0.22, 0.24, 0.32, 0.35, 0.37]
+separateTaxBrackets = [0, 10275, 41775, 89075, 170050, 215950, 323925]
+
+# Tax rates and brackets for 2021 (head of household)
+headTaxRates = [0.1, 0.12, 0.22, 0.24, 0.32, 0.35, 0.37]
+headTaxBrackets = [0, 14650, 55900, 89050, 170050, 215950, 539900]
+
+# Tax rates and brackets for 2021 (qualifying widow(er))
+widowTaxRates = [0.1, 0.12, 0.22, 0.24, 0.32, 0.35, 0.37]
+widowTaxBrackets = [0, 20550, 83550, 178150, 340100, 431900, 647850]
+
 # Prompt the user to enter their filing status, income, tax deductions, tax exemptions, & tax paid 
 filingStatus = input ("Enter your filing status (single, married filing jointly, married filing separately, head of household, 'widowed'): ")
 combindedIncome = float (input ("Enter your combined (nontaxable and taxable) income: "))
