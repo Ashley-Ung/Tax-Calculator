@@ -7,23 +7,23 @@ Ashley Ung
 This program functions as a tax calculator. It will prompt the user to input their taxable income, tax deductions, tax exemptions, and their filing status. The tax calculator will assist users in filling out their 1040 tax income form. This program will calculate the user's tax liability (the combined amount of taxes the user owes the IRS from income tax, capital gains tax, self-employment tax, and any penalities or interest), and the tax refund amount.
 """
 
-# Tax rates and brackets for 2021 (single filer)
+# Tax rates and brackets for 2023 (single filer)
 singleTaxRates = [0.1, 0.12, 0.22, 0.24, 0.32, 0.35, 0.37]
 singleTaxBrackets = [0, 10275, 41775, 89075, 170050, 215950, 539900]
 
-# Tax rates and brackets for 2021 (married filing jointly)
+# Tax rates and brackets for 2023 (married filing jointly)
 jointTaxRates = [0.1, 0.12, 0.22, 0.24, 0.32, 0.35, 0.37]
 jointTaxBrackets = [0, 20550, 83550, 178150, 340100, 431900, 647850]
 
-# Tax rates and brackets for 2021 (married filing separately)
+# Tax rates and brackets for 2023 (married filing separately)
 separateTaxRates = [0.1, 0.12, 0.22, 0.24, 0.32, 0.35, 0.37]
 separateTaxBrackets = [0, 10275, 41775, 89075, 170050, 215950, 323925]
 
-# Tax rates and brackets for 2021 (head of household)
+# Tax rates and brackets for 2023 (head of household)
 headTaxRates = [0.1, 0.12, 0.22, 0.24, 0.32, 0.35, 0.37]
 headTaxBrackets = [0, 14650, 55900, 89050, 170050, 215950, 539900]
 
-# Tax rates and brackets for 2021 (qualifying widow(er))
+# Tax rates and brackets for 2023 (qualifying widow)
 widowTaxRates = [0.1, 0.12, 0.22, 0.24, 0.32, 0.35, 0.37]
 widowTaxBrackets = [0, 20550, 83550, 178150, 340100, 431900, 647850]
 
